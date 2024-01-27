@@ -7,6 +7,7 @@ It is combined with Subfinder and discord to give alert on newly added subdomain
 # Use cases
 
 `go run main.go -d hackerone.com` to set alert for single domain.
+
 `go run main.go -f domain_list.txt` to set alert for given root domains.
 
 Make sure you replace your Discord webhook in the `main.go`
